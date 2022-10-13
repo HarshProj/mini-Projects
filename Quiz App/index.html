@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <section >
+        <div class=" mt-8">
+            <span class="font-serif font-extrabold text-6xl text-center ml-[35rem] my-5"> Quiz</span>
+        </div>
+        <div class=" quizapp ml-[26rem] mt-28 border border-black w-[30rem]  p-4 rounded-md">
+            <div class="question-div border border-yellow-50 rounded-lg bg-slate-200 p-1">
+                <span class="font-semibold text-2xl question"></span>
+            </div>
+            <div class="mt-8 flex flex-col gap-5 ml-5 font-semibold text-lg ">
+                <div class="flex gap-5">
+                    <div class="w-[20rem]">
+                        <input type="radio"  name="option" id="first" value="a" required>
+                        <label for="first"></label>
+                    </div>
+                    <div class="w-[20rem]">
+                        <input type="radio"  name="option" id="second" value="b" required>
+                        <label for="second"></label>
+                    </div>
+                </div>
+                <div class="flex gap-5">
+                    <div class="w-[20rem]">
+                        <input type="radio"  name="option" id="third" value="c" required>
+                        <label for="third"></label>
+                    </div>
+                    <div class="w-[20rem]">
+                        <input type="radio"  name="option" id="fourth" value="d" required>
+                        <label for="fourth"></label>
+                    </div>
+                </div>
+                <div class="mt-2 font-semibold text-sm ">
+                    <span class="float-left totalquestions">Total Questions:</span>
+                    <span class="float-right attemptedquestions">Questiosn Attempted:</span>
+                   
+                </div>
+                <div class=" mt-2 gap-4">
+                    <button  type="button" class="exitbtn float-left  bg-black px-2 py-1 rounded-md text-white hover:border hover:bg-orange-600 hover:border-red-900"> Exit</button>
+                    <button  type="submit" class="submitbtn float-right bg-black p-1 rounded-md text-white hover:border hover:bg-orange-600 hover:border-red-900"> Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="result hidden  mt-44 ">
+            <span class=" text-orange-800 block text-center text-6xl mb-24  font-bold">Quiz Ended</span>
+            <span class="ml-[28rem] font-semibold text-4xl block score">Score:</span>
+            <span class=" result-status text-center ml-5 font-extrabold text-5xl  mt-14  text-green-900 block">WON</span>
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

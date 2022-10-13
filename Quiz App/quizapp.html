@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Quiz App</title>
+</head>
+
+<body class="bg-blue-400">
+    <section>
+        <div class=" mt-8">
+            <span class="quizheading font-serif font-extrabold text-6xl ml-[30rem] my-5"> Quiz</span>
+        </div>
+
+
+        <div class="shadow-2xl  quizapp ml-[26rem] gap-8 flex mt-28 border bg-slate-800 border-black w-[40rem]  p-4 rounded-3xl">
+            <div class="question-div w-[22rem] flex flex-col gap-2">
+                <span class=" text-white font-semibold text-3xl block questionnumber"> Question 1/4</span>
+                <span class=" text-white mt-5 font-semibold text-2xl question"> What does css stands for?</span>
+            </div>
+            <div class=" w-[18rem] flex flex-col gap-5 ml-5 font-semibold text-lg ">
+                    <button type="button" data-id="a" class=" option border text-white border-white rounded-full">hypertext Markup language</button>
+                    <button type="button" data-id="b" class="option border text-white border-white rounded-full">Option 1</button>
+                    <button type="button" data-id="c" class=" option border text-white border-white rounded-full">Option 1</button>
+                    <button type="button" data-id="d" class=" option border text-white border-white rounded-full">Option 1</button>
+            </div>
+
+            <!-- <div class=" mt-2 gap-4">
+                    <button  type="button" class="exitbtn float-left  bg-black px-2 py-1 rounded-md text-white hover:border hover:bg-orange-600 hover:border-red-900"> Exit</button>
+                    <button  type="submit" class="submitbtn float-right bg-black p-1 rounded-md text-white hover:border hover:bg-orange-600 hover:border-red-900"> Submit</button>
+                </div><div class="mt-2 font-semibold text-sm ">
+                    <span class="float-left totalquestions">Total Questions:</span>
+                    <span class="float-right attemptedquestions">Questiosn Attempted:</span>
+                   
+                </div> -->
+            </div>
+            <div class="result hidden mx-auto p-1 mt-32 w-[25rem] h-[20rem] border bg-slate-800 border-black rounded-3xl shadow-2xl ">
+             <span class=" text-white block text-center text-6xl mb-16  font-bold">Scorecard</span>
+             <span class=" text-white text-left ml-10 font-semibold text-4xl block score">Score:</span>
+             <span class=" text-center text-white ml-5 font-extrabold text-2xl  mt-14 block">Thank you for playing quiz...</span>
+           </div> -->
+        </section>
+    <script src="quizapp.js"></script>
+</body>
+
+</html>
