@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("https://picsum.photos/200/300"); */
+    background-color: rgb(194, 194, 209);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    margin-top: 1rem;
+    /* padding: 1rem; */
+    width:35%;
+    border:2px solid black;
+    background-color: azure;
+    border-radius: 1rem;
+    transition: all 1s ease;
+}
+.heading
+{
+    margin-top: 4px;
+    border-radius: 0.5rem;
+    width: 100%;
+    /* justify-items: center; */
+    background-color: blueviolet;
+}
+.heading h1{
+    margin-left: 4rem;
+}
+.formcontents{
+    margin: 10px;
+    position: relative;
+
+}
+.formcontents input{
+    padding:10px;
+    width:100%;
+    display:block;
+    border:2px solid #777;
+    border-radius: 5px;;
+}
+.formcontents input :focus{
+    outline:none;
+    border-color: #777;
+}
+.formcontents .sucess input{
+      border-color: darkblue;
+}
+.formcontents .error input{
+    border-color: red;
+}
+/* .formcontents i{
+    position: absolute;
+    right:10px;
+    top:30px;
+    visibility: hidden;
+} */
+/* .formcontents .sucess i .fa-check{
+    visibility: visible;
+} */
+.initial
+{
+    position: absolute;
+    right:10px;
+    top:30px;
+    visibility:hidden;
+}
+.sucess{
+    visibility: visible;
+    color:red
+}
+.sucess{
+    visibility: visible;
+}
+/* .formcontents .error i .fa-circle-exclamation{
+    visibility: visible;
+} */
+/* .formcontents small{
+    visibility: hidden;
+}
+.formcontents .error small{
+    color:red;
+    visibility: visible;
+} */
+
+.initialerrormsg
+{
+    visibility: hidden;
+}
+.btn
+{
+    background-color: cornflowerblue;
+    width: 100%;
+    /* margin-left: 2.2rem; */
+    margin-bottom: 20px;
+    padding: 3px;
+    transition: all 1s ease;
+}
+@media (max-width: 950px) {
+    .container {
+        width: calc(100vw-35vw);
+
+    }
+    .heading .h1
+    {
+        font-size: 2px;
+    }
+}
