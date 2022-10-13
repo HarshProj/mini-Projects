@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-weight: 1000;
+    color: red;
+}
+.logo{
+    width: 5rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}     
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    /* display: inline; */
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+    color:blue;
+   
+    /* float: left; */
+    /* border : 1px solid white; */
+    /* border-radius: 1.5rem;  */
+
+}
+.navbar-link{
+    float: right;
+    margin-right: 10px;
+}
+
+/* nav ul li[4]{
+    padding: 2rem;
+} */
+
+.navbar{
+    margin-right: 10px;
+    background-color:red;
+    /* padding:1rem; */
+    width: 100%;
+    height: 3rem;
+}
+.ham{
+    visibility: hidden;
+}
+
+.navbar-link a:link ,
+.navbar-link a:visited {
+    /* display: inline-block; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:black;
+    /* transition: all 0.3s; */
+}
+
+.navbar-link a:hover , .navbar-link a:active{
+  color: blue;  
+} 
+@media screen and (max-width :800px)
+{
+    .navbar{
+        height: 1.4rem;
+    }
+    .navbar-link li
+    {
+        visibility: hidden;
+        display: block;
+    }
+     .navbar
+    {
+        background-color: white;
+    }
+    .logo
+    {
+        /* display: hidden; */
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
+    .ham
+    {
+        visibility: visible;
+        margin-left: 20px;
+        float: left;
+        padding: 5px;
+    }
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+
+        background-color:wheat;
+    }
+    .active.navbar-link{
+        /* float: left; */
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        position: sticky;
+    }
+    .active.navbar-link li
+    {
+    display: block;
+    visibility: visible;
+    /* width: ; */
+    /* float: left; */
+    /* text-align: center; */
+
+    /* position: fixed; */
+    /* background-color: cadetblue; */
+
+    
+    }
+    
+}
