@@ -1,0 +1,55 @@
+.heading{
+    margin-left: 35rem;
+}
+.grocery-center
+{
+   margin: auto;
+}
+
+.add-center 
+{
+    margin-left: 30rem;
+    margin-top: 5rem;
+}
+
+#input
+{
+    width:20rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.add-btn
+{
+    width: 5rem;
+    height: 2.5rem;
+    margin-left: 3rem;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-weight: 500; */
+    /* font-size: x-large ; */
+}
+
+.grocery-div
+{
+    margin-left: 28.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+.grocery-items
+{
+    padding: 0.8rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color:lightseagreen;
+    width:28rem;
+    height: 1rem;
+}
+.delete-sign
+{
+    float: right;
+    cursor: pointer;
+}
