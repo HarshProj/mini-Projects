@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: white;
+}
+
+
+.FAQ 
+{
+    border-top:6px solid #333;
+    margin-bottom:10rem;
+}
+.FAQ_Section
+{ 
+    position: relative;
+    width:94%;
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.FAQ_heading
+{
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size:3rem;
+    margin-bottom: 3rem;
+}
+.FAQ_Container
+{
+    width:58%;
+    justify-content: center;
+}
+.FAQ_Question
+{
+    cursor: pointer;
+    width:100%;
+    padding:1.5rem 2rem;
+    background-color:#303030;
+    font-size: 3xl;
+    color: white;
+}
+.FAQ_Answer
+{
+    margin-top: 2px;
+    width:100%;
+    padding:1.5rem 2rem;
+    background-color: #303030;
+    color: white;
+}
+.question ,.answer{
+    font-weight: 400;
+    font-size:1.7rem;
+}
+.openanswer
+{
+    font-size: 2rem;
+    font-weight: lighter;
+    float:right;
+}
+.closeanswer
+{
+    position: relative;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    float:right;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.hidden
+{
+    display: none;
+    visibility: hidden;
+    /* margin-left: 10px; */
+}
+.rotate
+{
+   rotate: 45deg;
+}
